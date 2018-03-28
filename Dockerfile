@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:alpine
 
 copy healthz /usr/share/nginx/html/
 
